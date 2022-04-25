@@ -28,7 +28,12 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="5b34b6c3-46f2-4243-94fe-9036f3595129">
-      <console name="Connection" type="STANDARD" schema="login" session="Main"><![CDATA[drop table login]]></console>
+      <console name="Connection" type="STANDARD" schema="login" session="Main"><![CDATA[select * from usuario;
+
+alter table usuario add column cpf varchar(14) unique; 
+alter table usuario add column telefone varchar(14); 
+alter table usuario add column datacad date; 
+alter table usuario add column cargo varchar(20);]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
